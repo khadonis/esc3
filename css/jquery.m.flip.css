@@ -1,0 +1,62 @@
+/**
+ * M Flip SASS mixin
+ * <div class="box m-flip">
+ *   <div class="front"> Hi I'm the front </div>
+ *   <div class="back"> Hi I'm the back </div>
+ * </div>
+ */
+.m-flip {
+  -moz-perspective: 1000;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+}
+.m-flip,
+.m-flip .front, .m-flip .back {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 250px;
+  text-align:center;
+}
+.m-flip .m-flip__content {
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.m-flip .m-flip__content.active, .m-flip .m-flip__content:hover {
+  -moz-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.m-flip .front, .m-flip .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color:#2c2c2c;
+}
+.m-flip .front {
+  z-index: 2;
+}
+.m-flip .back {
+  -moz-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.m-flip .front .oda{display:block;width:100%;height:250px;background-position:center center;background-size:cover;position:relative;}
+.m-flip .front .oda h2{width:100%;position:absolute;top:50%;margin-top:-15px;color:#fff;}
+.m-flip .front .oda1{background-image:url('http://www.theescapehotel.com/wp-content/uploads/2016/08/oda4-1.jpg');}
+.m-flip .front .oda2{background-image:url('http://www.theescapehotel.com/wp-content/uploads/2016/08/oda2-1.jpg');}
+.m-flip .front .oda3{background-image:url('http://www.theescapehotel.com/wp-content/uploads/2016/08/oda1-1.jpg');}
+.m-flip .back .inner{display:block;position:absolute;top:10%;width:100%;text-align:center;color:#333;}
+.m-flip .back .inner .sum{display:block;color:#FFFFFF;}
+
+
+

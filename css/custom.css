@@ -1,0 +1,681 @@
+@charset "UTF-8";
+/* Sass Document */
+/* line 21, ../sass/custom.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#text-3 h4,
+#text-3 h3,
+.section-title {
+  font-weight: 600;
+  color: #505050;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0; }
+
+/* line 36, ../sass/custom.scss */
+.light-color,
+input,
+textarea,
+.wpcw-widgets li strong,
+a {
+  color: #505050; }
+
+/* line 44, ../sass/custom.scss */
+.mavi-color {
+  color: #845d32; }
+
+/* line 48, ../sass/custom.scss */
+input,
+textarea {
+  font-size: 14px;
+  font-weight: 600;
+  border-color: #505050; }
+  /* line 54, ../sass/custom.scss */
+  input:hover, input:focus,
+  textarea:hover,
+  textarea:focus {
+    border-color: #845d32; }
+
+/* line 60, ../sass/custom.scss */
+::-moz-selection {
+  color: #845d32;
+  background-color: #505050; }
+::selection {
+  color: #845d32;
+  background-color: #505050; }
+
+/* line 65, ../sass/custom.scss */
+.ana-hakkimizda {
+  font-style: normal; }
+
+/* line 70, ../sass/custom.scss */
+.hero-content .section-title {
+  color: #fff; }
+
+/* line 74, ../sass/custom.scss */
+h5 {
+  margin-bottom: 5px;
+  text-transform: capitalize; }
+
+/* line 79, ../sass/custom.scss */
+#thsp-sticky-header {
+  padding: 8px 60px; }
+  /* line 82, ../sass/custom.scss */
+  #thsp-sticky-header a {
+    color: #fff !important; }
+    /* line 85, ../sass/custom.scss */
+    #thsp-sticky-header a:hover {
+      color: white !important; }
+  /* line 90, ../sass/custom.scss */
+  #thsp-sticky-header-title img {
+    height: 50px !important; }
+
+/* line 95, ../sass/custom.scss */
+.ui-datepicker .ui-datepicker-header,
+.ui-datepicker thead,
+.ui-state-default.ui-state-highlight.ui-state-hover,
+.ui-datepicker td .ui-state-hover,
+.cisc-shortcode-scheme-black,
+.footer {
+  background-color: #845d32 !important; }
+  /* line 103, ../sass/custom.scss */
+  .ui-datepicker .ui-datepicker-header-logo img,
+  .ui-datepicker thead-logo img,
+  .ui-state-default.ui-state-highlight.ui-state-hover-logo img,
+  .ui-datepicker td .ui-state-hover-logo img,
+  .cisc-shortcode-scheme-black-logo img,
+  .footer-logo img {
+    height: 50px; }
+
+/* line 108, ../sass/custom.scss */
+.cisc-shortcode-scheme-black.cisc-button > span,
+section.null-instagram-feed p.clear a:hover,
+a:hover {
+  color: #fff; }
+
+/* line 114, ../sass/custom.scss */
+input[type='submit'], .cisc-shortcode-scheme-black,
+.social-icon {
+  color: #845d32 !important;
+  border-color: #845d32 !important;
+  background-color: transparent !important; }
+  /* line 119, ../sass/custom.scss */
+  input[type='submit']:hover, .cisc-shortcode-scheme-black:hover,
+  .social-icon:hover {
+    color: #fff !important;
+    background-color: #845d32 !important; }
+
+/* line 125, ../sass/custom.scss */
+.social-icon {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; }
+
+/* line 137, ../sass/custom.scss */
+.social-icons li a {
+  margin-right: 5px; }
+/* line 142, ../sass/custom.scss */
+.social-icons li:last-child a {
+  margin-right: 0; }
+
+/* line 147, ../sass/custom.scss */
+.custom-social-icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 4px / 4px; }
+  /* line 158, ../sass/custom.scss */
+  .custom-social-icon:hover {
+    color: #845d32; }
+  /* line 162, ../sass/custom.scss */
+  .custom-social-icon span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: no-repeat;
+    background-size: 32px 32px; }
+  /* line 169, ../sass/custom.scss */
+  .custom-social-icon .facebook {
+    background-image: url("http://theescapehotel.com/wp-content/plugins/socials-ignited/images/square/default/32/facebook.png"); }
+  /* line 174, ../sass/custom.scss */
+  .custom-social-icon .twitter {
+    background-image: url("http://theescapehotel.com/wp-content/plugins/socials-ignited/images/square/default/32/twitter.png"); }
+  /* line 179, ../sass/custom.scss */
+  .custom-social-icon .instagram {
+    background-image: url("http://theescapehotel.com/wp-content/plugins/socials-ignited/images/square/default/32/instagram.png"); }
+  /* line 184, ../sass/custom.scss */
+  .custom-social-icon .linkedin {
+    background-image: url("http://theescapehotel.com/wp-content/plugins/socials-ignited/images/square/default/32/linkedin.png"); }
+  /* line 189, ../sass/custom.scss */
+  .custom-social-icon .tripadvisor {
+    background-image: url("http://theescapehotel.com/wp-content/plugins/socials-ignited/images/square/default/32/tripadvisor.png"); }
+  /* line 194, ../sass/custom.scss */
+  .custom-social-icon .rss {
+    background-image: url("http://theescapehotel.com/wp-content/plugins/socials-ignited/images/square/default/32/rss.png"); }
+
+/* line 200, ../sass/custom.scss */
+section.null-instagram-feed p.clear a:hover,
+.m-flip .front,
+.m-flip .back {
+  background-color: #845d32; }
+
+/* line 206, ../sass/custom.scss */
+.booking-form-inline input:focus {
+  border-color: #505050 !important; }
+
+/* line 210, ../sass/custom.scss */
+body {
+  color: #505050 !important;
+  font-family: Arial, Helvetica, sans-serif; }
+
+/* line 215, ../sass/custom.scss */
+p,
+li {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+/* line 221, ../sass/custom.scss */
+.hero-content .btn.btn-transparent,
+.btn.btn-white.btn-transparent,
+.te-btn-wrap input,
+.footer .btn.btn-transparent {
+  color: #fff;
+  border-color: #fff; }
+
+/* line 229, ../sass/custom.scss */
+.footer {
+  padding: 0 0 22px 0 !important; }
+  /* line 232, ../sass/custom.scss */
+  .footer p,
+  .footer li,
+  .footer a {
+    font-size: 12px; }
+  /* line 238, ../sass/custom.scss */
+  .footer a {
+    color: #505050; }
+    /* line 241, ../sass/custom.scss */
+    .footer a:hover {
+      color: #fff; }
+
+/* line 247, ../sass/custom.scss */
+.widget-wrap {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+
+/* line 254, ../sass/custom.scss */
+.sidebar .wrap-extra-pad {
+  background-attachment: initial; }
+
+/* line 258, ../sass/custom.scss */
+#thsp-sticky-header {
+  color: #505050;
+  background: #845d32; }
+
+/* line 263, ../sass/custom.scss */
+#text-2 {
+  margin: 0; }
+
+/* line 267, ../sass/custom.scss */
+section.null-instagram-feed p.clear {
+  margin-top: -15px; }
+
+/* line 271, ../sass/custom.scss */
+.section-title {
+  font-size: 18px; }
+
+/* line 275, ../sass/custom.scss */
+.section-title,
+.slide-subtitle,
+.hero-content .section-title,
+.widget-title,
+.entry-content h3 {
+  letter-spacing: .02em; }
+
+/* line 283, ../sass/custom.scss */
+.widget-title {
+  color: #505050; }
+
+/* line 287, ../sass/custom.scss */
+.page-title,
+h2 {
+  font-size: 18px; }
+
+/* line 292, ../sass/custom.scss */
+.header .ci-dropdown-menu ul {
+  border-width: 0;
+  border-color: #fff; }
+
+/* line 297, ../sass/custom.scss */
+.header .ci-dropdown-menu ul li a {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0;
+  color: #555;
+  background-color: #fff; }
+
+/* line 307, ../sass/custom.scss */
+.ci-dropdown-menu > li ul li a {
+  margin: 0;
+  border: 0 solid #fff; }
+
+/* line 312, ../sass/custom.scss */
+.header .ci-dropdown-menu ul li a:hover,
+.header .ci-dropdown .current_page_item > a,
+.header .ci-dropdown .current-menu-item > a,
+.header .ci-dropdown .current-menu-ancestor > a,
+.header .ci-dropdown .current-menu-parent > a {
+  padding-left: 7px;
+  color: #252525;
+  border-left: 3px solid #845d32;
+  background-color: #fff; }
+
+/* line 323, ../sass/custom.scss */
+.header .ci-dropdown-toggle:hover,
+.header .ci-dropdown .sfHover > a,
+.header .ci-dropdown .sfHover > button {
+  color: #845d32; }
+
+/* line 329, ../sass/custom.scss */
+.wpcw-widget-contact ul li {
+  padding: 0; }
+
+/* line 333, ../sass/custom.scss */
+form input,
+form textarea {
+  margin-bottom: 5px; }
+
+/* line 338, ../sass/custom.scss */
+.wpcf7 .wpcf7-not-valid-tip {
+  margin-top: -8px; }
+
+/* line 342, ../sass/custom.scss */
+.page-title {
+  display: none; }
+
+/* line 347, ../sass/custom.scss */
+#text-3 h4,
+#text-3 h3 {
+  font-weight: 600; }
+
+/* line 353, ../sass/custom.scss */
+.gallery-icon {
+  position: relative;
+  display: inline-block;
+  overflow: hidden; }
+
+/* line 359, ../sass/custom.scss */
+.gallery-icon:before, .gallery-icon:after {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  pointer-events: none; }
+
+/* line 370, ../sass/custom.scss */
+.gallery-icon:hover:before, .gallery-icon:hover:after {
+  border-width: 20px; }
+
+/* line 374, ../sass/custom.scss */
+.gallery-icon:before, .gallery-icon:after {
+  -webkit-transition: border-width .18s ease;
+          transition: border-width .18s ease;
+  border: 0 solid #fff; }
+
+/* line 379, ../sass/custom.scss */
+.gallery-icon:after {
+  -webkit-transition: border-color .18s ease;
+          transition: border-color .18s ease;
+  border: 1px solid transparent; }
+
+/* line 385, ../sass/custom.scss */
+.gallery-icon:hover:after {
+  border: 1px solid #d7d7d7; }
+
+/* line 389, ../sass/custom.scss */
+.gallery-icon a:after {
+  font-family: 'FontAwesome';
+  font-size: 30px;
+  line-height: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -14px;
+  content: '\f00e';
+  -webkit-transition: opacity .18s ease;
+          transition: opacity .18s ease;
+  opacity: 0;
+  color: #fff; }
+
+/* line 404, ../sass/custom.scss */
+.gallery-icon a:hover:after {
+  opacity: 1; }
+
+/* line 408, ../sass/custom.scss */
+#thsp-sticky-header li a {
+  font-size: 12px;
+  line-height: 50px; }
+
+/* line 413, ../sass/custom.scss */
+.te-oda-list {
+  float: left;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #d7d7d7; }
+  /* line 419, ../sass/custom.scss */
+  .te-oda-list li {
+    float: left;
+    margin-right: 30px;
+    padding: 8px;
+    list-style: none; }
+    /* line 425, ../sass/custom.scss */
+    .te-oda-list li i {
+      min-width: 25px; }
+
+/* line 431, ../sass/custom.scss */
+.fa-2 {
+  font-size: 1.2em; }
+
+/* line 435, ../sass/custom.scss */
+#text-9 {
+  margin-bottom: 15px; }
+
+/* line 440, ../sass/custom.scss */
+.te-restaurant h5 {
+  font-weight: 300;
+  text-transform: lowercase; }
+
+/* line 446, ../sass/custom.scss */
+.btn.btn-transparent {
+  color: #845d32;
+  border-color: #845d32; }
+  /* line 450, ../sass/custom.scss */
+  .btn.btn-transparent:hover {
+    color: #fff;
+    border-color: #845d32;
+    background: #845d32; }
+
+/* line 457, ../sass/custom.scss */
+.te-btn-wrap input:hover,
+#res_r_box input[type='button']:hover {
+  color: #fff !important;
+  border-color: #845d32 !important;
+  background: #845d32 !important; }
+
+/* line 464, ../sass/custom.scss */
+.m-flip .front .oda,
+.m-flip .back .oda {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 250px;
+  background-position: center center;
+  background-size: cover; }
+
+/* line 474, ../sass/custom.scss */
+.m-flip .front .oda1,
+.m-flip .back .oda1 {
+  background-image: url("http://www.theescapehotel.com/wp-content/uploads/2016/09/oda4-1.jpg") !important; }
+
+/* line 479, ../sass/custom.scss */
+.m-flip .front .oda2,
+.m-flip .back .oda2 {
+  background-image: url("http://www.theescapehotel.com/wp-content/uploads/2016/09/oda2-1.jpg") !important; }
+
+/* line 484, ../sass/custom.scss */
+.m-flip .front .oda3,
+.m-flip .back .oda3 {
+  background-image: url("http://www.theescapehotel.com/wp-content/uploads/2016/08/oda1-1.jpg") !important; }
+
+/* line 490, ../sass/custom.scss */
+.aktiviteler div.img-responsive {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 220px;
+  max-height: 220px;
+  margin-bottom: 30px; }
+  /* line 498, ../sass/custom.scss */
+  .aktiviteler div.img-responsive img {
+    position: absolute;
+    bottom: 0;
+    min-height: 220px; }
+    /* line 503, ../sass/custom.scss */
+    .aktiviteler div.img-responsive img.dikey {
+      top: -60%; }
+/* line 509, ../sass/custom.scss */
+.aktiviteler .row, .aktiviteler h5 {
+  min-height: 30px; }
+
+/* line 515, ../sass/custom.scss */
+.cisc-shortcode-scheme-black.cisc-button > span {
+  color: #845d32; }
+
+/* line 520, ../sass/custom.scss */
+#td_res_title {
+  display: none; }
+
+/* line 525, ../sass/custom.scss */
+.bodyback {
+  background-image: url("../images/photo-1444210971048-6130cf0c46cf-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 531, ../sass/custom.scss */
+.booking-form-inline {
+  position: relative;
+  z-index: 2;
+  top: -140px;
+  margin-bottom: -40px; }
+  /* line 537, ../sass/custom.scss */
+  .booking-form-inline select {
+    width: 100%;
+    height: auto !important;
+    border: 2px solid #fff !important; }
+    /* line 542, ../sass/custom.scss */
+    .booking-form-inline select:before {
+      position: relative;
+      top: 10px;
+      content: 'Yeti┼şkin'; }
+  /* line 549, ../sass/custom.scss */
+  .booking-form-inline input,
+  .booking-form-inline select {
+    font-family: 'Roboto', arial, sans-serif !important;
+    font-size: 13px !important;
+    font-weight: normal !important;
+    height: 40px !important;
+    padding: 6px 12px !important;
+    color: #fff !important; }
+    /* line 558, ../sass/custom.scss */
+    .booking-form-inline input:focus, .booking-form-inline input:hover,
+    .booking-form-inline select:focus,
+    .booking-form-inline select:hover {
+      border-color: #845d32 !important;
+      color: #fff !important; }
+
+/* line 567, ../sass/custom.scss */
+.arrival a {
+  position: absolute;
+  top: 0;
+  right: 15px; }
+/* line 573, ../sass/custom.scss */
+.arrival.te-select {
+  position: relative;
+  cursor: pointer; }
+  /* line 577, ../sass/custom.scss */
+  .arrival.te-select select {
+    border: 2px solid #fff;
+    -moz-appearance: none;
+    -webkit-appearance: none; }
+    /* line 581, ../sass/custom.scss */
+    .arrival.te-select select::-ms-expand {
+      display: none; }
+  /* line 586, ../sass/custom.scss */
+  .arrival.te-select:after {
+    font-family: FontAwesome;
+    font-size: 18px;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    content: '\f107';
+    pointer-events: none;
+    color: inherit; }
+
+/* line 599, ../sass/custom.scss */
+#res_r_box input {
+  font-family: 'Roboto', arial, sans-serif !important;
+  font-size: 13px !important;
+  font-weight: normal !important;
+  width: 100% !important;
+  padding: 6px 12px !important;
+  border: 2px solid #fff !important;
+  background: transparent !important; }
+  /* line 608, ../sass/custom.scss */
+  #res_r_box input:hover, #res_r_box input:focus {
+    border-color: #845d32 !important; }
+
+/* line 614, ../sass/custom.scss */
+.arrival i.fa {
+  font: normal normal normal 18px/1 FontAwesome;
+  height: 0;
+  vertical-align: middle;
+  color: #fff; }
+
+/* line 621, ../sass/custom.scss */
+#pCalendar {
+  width: 17em;
+  margin-top: 20px !important;
+  margin-left: -134px !important; }
+  /* line 626, ../sass/custom.scss */
+  #pCalendar td {
+    text-align: center !important; }
+
+/* line 631, ../sass/custom.scss */
+.res_big {
+  display: none; }
+
+/* line 635, ../sass/custom.scss */
+#res_bordered_row {
+  border: none !important; }
+
+/* line 639, ../sass/custom.scss */
+.booking-wrapper {
+  position: relative;
+  top: 90px;
+  margin-top: -120px;
+  padding: 230px 0 1px;
+  background-image: url(http://www.theescapehotel.com/wp-content/uploads/2016/08/slide03-1920x800-1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+
+/* line 652, ../sass/custom.scss */
+section.widget.widget_nav_menu {
+  margin: -90px 0 0;
+  background: #845d32;
+  padding: 15px 0 40px 0; }
+  /* line 657, ../sass/custom.scss */
+  section.widget.widget_nav_menu ul {
+    text-align: center; }
+    /* line 660, ../sass/custom.scss */
+    section.widget.widget_nav_menu ul li {
+      display: inline; }
+      /* line 663, ../sass/custom.scss */
+      section.widget.widget_nav_menu ul li a {
+        margin: 15px 2.0379479971890373%;
+        color: #fff;
+        border: none;
+        display: inline;
+        font-size: 12px; }
+        /* line 670, ../sass/custom.scss */
+        section.widget.widget_nav_menu ul li a:hover {
+          color: #fff; }
+
+/* line 679, ../sass/custom.scss */
+.scrollToTop {
+  width: 40px;
+  height: 40px;
+  padding: 0 5px;
+  text-align: center;
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+  position: fixed;
+  bottom: 22px;
+  right: 40px;
+  display: none;
+  border: 2px solid #fff;
+  font-size: 36px;
+  line-height: 0;
+  z-index: 99999; }
+
+/* line 697, ../sass/custom.scss */
+.scrollToTop:hover {
+  color: #fff;
+  border-color: #fff; }
+
+/* line 702, ../sass/custom.scss */
+.mast-head {
+  border: none; }
+
+/* line 706, ../sass/custom.scss */
+.custom-loading-gif {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background: url(http://www.theescapehotel.com/wp-content/themes/zermatt/images/Loading-Gif.gif) center no-repeat #fff; }
+
+/* line 715, ../sass/custom.scss */
+.weather-360-icon {
+  margin-bottom: 15px; }
+
+/* line 718, ../sass/custom.scss */
+.resort-info {
+  margin: 0;
+  float: right; }
+
+/* line 722, ../sass/custom.scss */
+.purechat-widget .purechat-collapsed-outer {
+  width: 250px;
+  right: 80px !important;
+  float: right; }
+
+/* line 727, ../sass/custom.scss */
+.purechat-widget .purechat-expanded {
+  margin-right: 0; }
+
+/* line 733, ../sass/custom.scss */
+.purechat-widget .purechat-menu .purechat-btn, .purechat-window .purechat-menu .purechat-btn, .purechat-widget .purechat-widget-title-link, .purechat-window .purechat-widget-title-link, .purechat-widget .purechat-btn, .purechat-window .purechat-btn, .purechat-widget .purechat-btn i, .purechat-window .purechat-btn i {
+  color: #fff !important; }
+
+/* line 736, ../sass/custom.scss */
+.ci-map {
+  /*  &:after {
+     position: absolute;
+     width: 100%;
+     height: 541px;
+     background-color: rgba(132, 93, 50, 0.2);
+     top: 0;
+     content: " ";
+     pointer-events: none;
+     filter: saturate(1) brightness(150%) contrast(360%);
+   } */ }
+  /* line 748, ../sass/custom.scss */
+  .ci-map img {
+    -webkit-filter: hue-rotate(390deg) brightness(90%) saturate(50%) sepia(10%);
+            filter: hue-rotate(390deg) brightness(90%) saturate(50%) sepia(10%); }
