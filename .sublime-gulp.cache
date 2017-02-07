@@ -1,0 +1,1 @@
+{"C:\\WORK\\THEESCAPEHOTEL\\WEBSITE\\WEB\\escape3\\gulpfile.js":{"sha1":"6bd33bdd56c2aab6c448c37a9d940fa07a41aa8c","tasks":{"compass":{"name":"compass","dependencies":""},"minifyCss":{"name":"minifyCss","dependencies":""},"manage":{"name":"manage","dependencies":""},"default":{"name":"default","dependencies":"compass minifyCss manage"}}}}
